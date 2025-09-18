@@ -4,7 +4,7 @@ import { Hono } from "hono";
 const port = parseInt(process.env.PORT || "3000");
 const app = new Hono();
 
-const View = (props) => {
+const View = () => {
   const styles = {
     color: "#f30",
   };
